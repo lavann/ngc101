@@ -9,8 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule,//provides critical services that are essential to launch and run our app in the browser
+    AppRoutingModule// routing module which provides the application-wide configured services with routes in the root module
   ],
   providers: [],
   bootstrap: [AppComponent]
