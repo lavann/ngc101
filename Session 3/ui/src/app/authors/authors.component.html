@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-12">
+        <div>
+            <label>Category:</label>
+            <select (change)="getAuthorsByCategory($event.target.value)">
+                <option disabled>Selecta category</option>
+                <option>Choose Category</option>
+                <option *ngFor="let category of categories">{{category}}</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+
+
+        <table class="table" *ngIf="authors">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Last Published</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let author of authors" (click)="goToAuthorDetails(author.genre, author.id)">
+                    <td>
+                        {{author.name}}
+                    </td>
+
+                    <td>
+                        {{author.email}}
+                    </td>
+
+                    <td>
+                        {{author.genre}}
+                    </td>
+
+                    <td>
+                        {{author.publishDate}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
