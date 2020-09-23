@@ -133,7 +133,7 @@ In app.component.html - enter
 ```
 
 Once recompiled, you will be presented with our jumbotron
-![callout](./images/jumbotron.png)
+![callout](./images/jumbotron1.png)
 
 We've now created our component and used it like a html element i.e
 ` <div> </div>` with Angular taking care of creating an inserting an instance of home.component whenever it finds ` <app-home> </app-home>`.
