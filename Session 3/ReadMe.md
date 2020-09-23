@@ -46,7 +46,7 @@ We are now going to add the Bootstrap CSS framework, to add styling as well as m
 From your browser, navigate to
 https://getbootstrap.com/docs/4.0/getting-started/introduction/#css
 
-![VS Code App Component](./images/bootstrap.png)
+![bootstrap](./images/bootstrap.png)
 
 Navigate to Index to HTML and add the following entry to reference the bootstrap CSS.
 
@@ -136,4 +136,4 @@ Once recompiled, you will be presented with our jumbotron
 ![callout](./images/jumbotron.png)
 
 We've now created our component and used it like a html element i.e
-` <div> </div>` with Angular taking care of creating an inserting an instance of home.component whenever it finds ` <app-home> </app-home>`
+` <div> </div>` with Angular taking care of creating an inserting an instance of home.component whenever it finds ` <app-home> </app-home>`.
