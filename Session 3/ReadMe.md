@@ -46,7 +46,7 @@ We are now going to add the Bootstrap CSS framework, to add styling as well as m
 From your browser, navigate to
 https://getbootstrap.com/docs/4.0/getting-started/introduction/#css
 
-![bootstrap](./images/bootstrap.png)
+![bootstrap](./images/bootstrap1.png)
 
 Navigate to Index to HTML and add the following entry to reference the bootstrap CSS.
 
