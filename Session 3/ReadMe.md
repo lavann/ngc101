@@ -558,4 +558,6 @@ Finally, we will apply the relevant html elements to render our display
 
 </div>
 
-We use the [ngSubmit](https://angular.io/api/forms/NgForm) event to handle the update and call our method `updateAuthor()`. We also use the `<pre> </pre> to display our preformatted text.
+[Two Way data binding](https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html) is used reflect changes in the application state to the view.
+
+We use the [ngSubmit](https://angular.io/api/forms/NgForm) event to handle the update and call our method `updateAuthor()`. We also use the `<pre> </pre>` to display our preformatted text. The [JsonPipe](https://angular.io/api/common/JsonPipe) is used to convert the value into a JSON representation
