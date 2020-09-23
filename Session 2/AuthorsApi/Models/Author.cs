@@ -39,7 +39,7 @@ namespace AuthorsApi.Models
         public string PublishDate { get; set; }
 
         [Newtonsoft.Json.JsonProperty("tags")]
-        public List<string> Tags { get; set; }
+        public List<dynamic> Tags { get; set; }
 
     }
 
