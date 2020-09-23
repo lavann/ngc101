@@ -195,9 +195,7 @@ export class AppRoutingModule { }
 
 The route `author/:genre/:id`, takes two [parameters](https://angular.io/guide/router#accessing-query-parameters-and-fragments) in the route `genre` and `id`, this values are used by our authors service to call the api with those values to retrieve information on a particular author.
 
-To create the NavBar, we will leverage the bootstrap navbar component
-
-- https://getbootstrap.com/docs/4.0/components/navbar/
+To create the NavBar, we will leverage the bootstrap [navbar](https://getbootstrap.com/docs/4.0/components/navbar/#nav) component provided by Bootrap
 
 In navbar.component.html
 
