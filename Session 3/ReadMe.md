@@ -158,7 +158,7 @@ ng g c page-not-found
 
 ```
 
-Now, create a service to call our API
+Now, create a [service](https://angular.io/tutorial/toh-pt4) to call our API
 
 ```
 ng g s authors
