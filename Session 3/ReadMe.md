@@ -107,7 +107,7 @@ We are going to leverage the [Jumbotron](https://getbootstrap.com/docs/4.0/compo
 
 ```
 
-The Jumbotron is encapsulated with two bootstrap Styles, [row and col-12](https://getbootstrap.com/docs/4.0/layout/grid/#how-it-works), this component is further encapsulated in a [container](https://getbootstrap.com/docs/4.0/layout/overview/#containers) Bootstrap Style; this will be added to app.component.html shortly. This allows for our application to behave in a responsive manner.
+The Jumbotron is contained within two bootstrap Styles, [row and col-12](https://getbootstrap.com/docs/4.0/layout/grid/#how-it-works). The row and column css styles are contained  in a [container](https://getbootstrap.com/docs/4.0/layout/overview/#containers) Bootstrap Style; this will be added to app.component.html shortly. This allows for our application to behave in a responsive manner.
 
 To view our newly created component, we can leverage the [ css selector](https://angular.io/guide/architecture-components) value from home.component.ts as a html element
 
